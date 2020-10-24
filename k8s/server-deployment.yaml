@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: server
-          image: sturs23/multi-docker-server
+          image: sturs23/complex-k8s-server
           ports:
             - containerPort: 5000
           env:
